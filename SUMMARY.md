@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Page 1](README.md)
+* [Superstate 101](README.md)
