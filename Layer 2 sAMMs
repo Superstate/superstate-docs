@@ -1,0 +1,11 @@
+# Superstate AMMs on L2
+By using L2s we can have low gas fees and have all assets be used across both the AMM and lending pools at the **same time**. We do this by having the AMM virtualise balances that are deposited to preserve the fundamental AMM mechanism that all AMMs share for prices, without actually having the assets in the AMM. When a transaction happens the amount outs withdrawn and the inputs deposited to further the yield. This allows for the assets to operationally be in both pools at the same timeandand with both APY sources being fully used, and users able to access deeper markets as liquidity can be shared as one.
+The balances are virtualise d by simply changing the source for the balances lookups to the deposit mappings rather than internal balances. This trick allows the front end to show the reserves as if they were in the protocol rather than deposit eed at any time without them actually needing to be in the AMM, allowing for depth, slippage, rates, all interfaces and front ends to operate as if was any AMM, but with LP s earning yjeld. there ed ly
+
+Flow f
+
+### Assumptions
+We make 1 fundamental assumption.
+1. All assets are available for withdraw at any given time. This assumption relates to LPs being able to withdraw and as a requirement for what protocols we use, as we will not use any with a timelock.
+1. A. We assume that there are enough assets for almost all swaps based on availability by the APY protocol (lending pools may have full capacity and as such we would not be able to withdraw during a tx). This can be safely assumed as almost always lending protocols have some spare capacity, using relative and dynamic fee rates to guarantee that. 
+
