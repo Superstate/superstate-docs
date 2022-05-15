@@ -8,17 +8,17 @@ Superstate might look like another swap fork, but under the hood there's a simpl
 
 As a user you get access to better liquidity because now deposits from LPs can access both revenue streams and dont need to choose. So you get better rates and lower slippage.
 
-Basic flow for LP
+### Basic flow for LP
 1. The LP provides both assets as they would any other AMM.
 2. The AMM deposits the balance into the APY protocol, and increases the virtual balances for the contract held by the APY protocol as deposits, allowing those balances to be used rather than jnternal balances for pricing.
 3. The assets earn yjeld through loans, vaults, whatever mechanism s being used passively, creating depth for the APY protocol using the AMM s assets.
 4. When a swap happens the trader pays a fee, which also gets deposited for further interest, earning the LP both swap fees and interest from the APY protocol. s
 5. The LP wishes to withdraw, net balances are checked and the LP gets their assets + AMM fees + APY interest.
 
-User flow
+### User flow
 1. The user checks the rate for asset x to asset y using the standard AMM mechanism, but uses deposits to the APY protocol + internal assets (usually 0) to get the rate, not affected by deposits not being in the contract before the tx.
 2. The contract swaps the token x for y at the set rate and withdraws the needed y amount, sending to the user.
 3. The x token gets deposited for further APY.
 
-We call this mechanism superstates as the assets are effectively in 2 places at once and earn both revenue sources as if they were only in that protocol through a neat trick using virtual balances.
+We call this mechanism *superstates* as the assets are effectively in 2 places at once and earn both revenue sources as if they were only in that protocol through a neat trick using virtual balances.
 
