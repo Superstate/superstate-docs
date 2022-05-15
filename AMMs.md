@@ -4,9 +4,9 @@ The balances are virtualise d by simply changing the source for the balances loo
 
 ### Basic flow for LP
 1. The LP provides both assets as they would any other AMM.
-2. The AMM deposits the balance into the APY protocol, and increases the virtual balances for the contract held by the APY protocol as deposits, allowing those balances to be used rather than jnternal balances for pricing.
-3. The assets earn yjeld through loans, vaults, whatever mechanism s being used passively, creating depth for the APY protocol using the AMM s assets.
-4. When a swap happens the trader pays a fee, which also gets deposited for further interest, earning the LP both swap fees and interest from the APY protocol. s
+2. The AMM deposits the balance into the APY protocol, and increases the virtual balances for the contract held by the APY protocol as deposits, allowing those balances to be used rather than internal balances for pricing.
+3. The assets earn yield through loans, vaults, whatever mechanisms being used passively, creating depth for the APY protocol using the AMMs assets.
+4. When a swap happens the trader pays a fee, which also gets deposited for further interest, earning the LP both swap fees and interest from the APY protocol.
 5. The LP wishes to withdraw, net balances are checked and the LP gets their assets + AMM fees + APY interest.
 
 ### User flow
