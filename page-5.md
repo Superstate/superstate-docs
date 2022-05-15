@@ -8,7 +8,7 @@ A MultiSignature address will be used to allow for the protocols targeted for de
 
 ## **Distribution**
 
-Distribution**#1,000,000,000 Total Supply**
+**1,000,000,000 Total Supply**
 
 200,000,000 Team allocation
 
