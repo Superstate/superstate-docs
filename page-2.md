@@ -1,4 +1,4 @@
-# Layer 1 Page 2
+# Layer 1
 
 Layer 1 mainnet has higher fees so for this we adopt partial superstate.
 ### Basic flow for LP
