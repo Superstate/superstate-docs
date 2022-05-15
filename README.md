@@ -1,7 +1,7 @@
 # Superstate Basics
 
 ## What are Superstate AMMs?
-Superstate Automated Market Makers are AMMs that earn yield on assets by keeping the balances in the APY optimal protocols until they are needed to execute swaps. We do this through simulated balances to keep compatibility and composabtlaty with front ends and contract interfaces.
+Superstate Automated Market Makers are AMMs that earn yield on assets by keeping the balances in the APY optimal protocols until they are needed to execute swaps. We do this through simulated balances to keep compatibility and composability with front ends and contract interfaces.
 
 ## Why Superstate? What makes it better than other AMMs? Isn't this just another Uniswap clone?
 Superstate might look like another swap fork, but under the hood there's a simple but powerful difference. We make LP assets not just there for liquidity but we make them productive! By using protocols like Aave, Yearn and more we allow LP deposits to earn yield as well as swap fees. The balancer makes sure that when needed assets can be used for swaps and that theres a comfortable cushion for most swaps to be gas efficient for L1 or have full deposit and achieve superstate for L2s (cause gas fees are much lower), but we also allow automatic rebalancing and full access to the deposit assets as needed to not impact user experience during a trade. As an LP you get the best possible return getting yield from swap fees AND lending at the same time, with interest being paid to the LP token the same as the swap fees.
