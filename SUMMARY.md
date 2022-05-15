@@ -6,4 +6,4 @@
 * [Vampire Attack](page-3.md)
 * [Deposit Protocols](page-4.md)
 * [SUP Token](page-5.md)
-* [Page 6](Deployments.md)
+* [Deployments](Deployments.md)
