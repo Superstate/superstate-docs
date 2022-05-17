@@ -6,7 +6,7 @@ We do this through having trades router along a smart router, extracting the bes
 Assume the following
 
                Price    USDc  DAI balances
-      AMM1     .95       50k  49k 
+      AMM1     .98       50k  49k 
       AMM2       1       5m   5m
 
 ## Router execution
