@@ -4,9 +4,10 @@ We also plan to use a smart router for homoasset AMMs whereby LP s can deposit t
 We do this through having trades router along a smart router, extracting the best rates across all available liquidity for an AMM and the splitting the rest along LPs weighted by liquidity.
 
 Assume the following
-        Price.    USDc DAI balances
-AMM1     .95       50k 49k 
-AMM2       1        5m 5m
+
+               Price    USDc  DAI balances
+      AMM1     .95       50k  49k 
+      AMM2       1       5m   5m
 
 ## Router execution
 Sort best rate to worst, then see how much can be swapped until best 1 matches best 2. Then split. Repeat until all available LPs are matched and then split.
