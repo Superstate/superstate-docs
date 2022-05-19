@@ -27,3 +27,12 @@ Vests for team will be a 1y vest.
 
 ## zSUP
 zSUP will be paid out for temporary LP rewards to attract LP from other protocols and establish AMMs without investment needed. The stake rewards will be zSUP which then can be locked by the user to earn SUP, but should the zSUP be staked for say 2w with a 4w maturity, the user only gets .5x the SUP and the rest will be burned / returned to Treasury. This allows tokens to be rewarded, users never to be locked and stop large scale sudden sell pressure as rewards would just be sold when earned. This rewards those who are committed to the protocol more than those just there for free money. And since the tokens are all free, there needs to be incentives to reward commitment, but allow to sell.
+
+## Rage Quit and Dissolution
+We believe in changing the dynamics for real permissionless protocols and allow holders to not only control their own money, but have agency in their stake to exit and withdraw their stake should the DAO not be operating in a way that they agree with. Further majority takeovers into DAOs are a very real problem. As such we are allowing for holders to rage quit, which burns their stake for a relative stake in the Treasury assets. This allows the DAO to autonomously dissolve itself just as easily as it formed. 
+
+By allowing the protocol tokens that vote to also be able to exit the liquidty, those who contributed to be able to vote in the DAO can just as easily exit. 
+
+The team allocation vests are also able to rage quit as a mechanism to counter hostile attacks, leaving the attacker with no greater stake than jf they had rage quit, but with an assumed higher cost to execute the attack, needing to buy tokens at a premium to the burn value.
+
+By allowing holders to dissolve the DAO holders and the DAO generally have a strong defence between a hostile takeover as well as leadership, team, culture or any other DAO members pushing through proposals which do not meet holders values.
