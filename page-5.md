@@ -35,4 +35,4 @@ By allowing the protocol tokens that vote to also be able to exit the liquidty, 
 
 The team allocation vests are also able to rage quit as a mechanism to counter hostile attacks, leaving the attacker with no greater stake than jf they had rage quit, but with an assumed higher cost to execute the attack, needing to buy tokens at a premium to the burn value.
 
-By allowing holders to dissolve the DAO holders and the DAO generally have a strong defence between a hostile takeover as well as leadership, team, culture or any other DAO members pushing through proposals which do not meet holders values.
+By allowing holders to dissolve the DAO holders and the DAO generally have a strong defence between a hostile takeover as well as team, culture or any other DAO members pushing through proposals which do not meet holders values.
