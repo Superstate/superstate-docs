@@ -18,7 +18,7 @@ SUP will be the token responsible for governance as well as fee distribution. Th
 
 LP rewards will be given during and post vampire attack as a risk free way to acquire SUP without needing to directly swap assets. We believe that the best way to align the responsibility for treasury managements by having the voters having controlled and supplied the assets, effectively managing their own money. Rewards that do not have a direct commitment such as LP rewards will earn tSUP a token which can be locked and exchanged for SUP increasing with time, and burning the difference between total possible withdraw and 0 relative to tme staked. This prevents sellers all rushing to sell right after they get tokens.
 
-Vests for team will be a 1y vest.
+Vests for team will be a 4y vest.
 
 ## LP Bootstrap
 20,000,000 SUP will be swappable for LP tokens from the USDc / DAI AMM at 1 SUP to $1 in LP tokens which will then be owned by the Treasury. This allows the SUP holders to directly have a say about how their money gets used and creates a cost basis and collateralzed floor through the tokens being able to liquidate the DAO for the Treasury assets to be split among holders. We believe that by rather than give away tokens and making rewards just be sold, creating a way for those that want to acquire votings rights to directly have a stake for malicious proposals and help with voter apathy to make the DAO actually decentralized in decision making. The LP tokens will also create a revene stream for operations.
