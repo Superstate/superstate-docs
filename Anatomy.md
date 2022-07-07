@@ -1,0 +1,20 @@
+# Anatomy of a Superstate
+This gives a brief overview for how Superstates concept, known as an asset superstate, allows us to have assets flow between systems as they are needed, when they are needed. This allows multiple dexes, AMMs, and other contracts and systems where assets are only needed and productive during a specific moment to be able to all share the same liquidity and assets at the same time, without wrappers, and full passive yield from staking and lending/passive use cases.
+
+## Superstate Flow
+### Warps 
+1. Deposit raw asset to the Superstate Warps (our brand of vaults). These vaults/Warps are the core for the other contracts to build from and are effectively the entry and exit ultimately, and control the assets on net. They deposit assets to passive state and allow assets to be used during active state.
+
+### Passive state
+2. Warps deposit assets to the target passive contract/s. These can be lending markets/other vaults/staking and other passive cases where the assets can be withdrawn. Controllers are careful to allow for enough reserve to be kept to allow active uses, specifically for lending markets utilisation to allow assets to be available when needed. Assets are held here to earn interest passively while not being used
+
+### Active state 
+3. Active state refers to the moment when an assets needed for a transaction to be executed (say for an AMM swap whereby the assets are only needed during the transfer). Contracts are able to withdraw assets from the Warp atomically during txs to execute what they need to, earning fees from the active asset usage back to the warp and LP. These modules allow the warp assets to be accessed by many different contracts (known as modules) at the same time, as they only need access to the assets at a single moment, which because of Cryptos unique characteristics in synchronous execution, atomic state changes during txs allows them all to share the same liquidity across arbitrary amounts of systems, as well as be modular without disturbing the core assets. These modules are whitelisted and can have full or only partial/limted access to assets. As such when say a swap happens the assets are withdrawn from the passive state, to the warp, to the active state request contract, transaction execution performed and any amount not needed returned as well as any fees. This can be done by multiple contracts (modules) for the same assets, even during the same transaction.
+
+These active states use balance virtualisation to allow the contracts to be fully compatible with all current tools, front ends and contracts as from the outside they all appear to have the assets available (unless specifically checking by interacting with the underlying token to verify). This allows AMMs specifically to have their liquidity passively grow based on the interest and users to predetermine slippage, rates and liquidity as usual.
+
+4. The warps earn full interest and APY from passive states as if they never left (0 loss as transactions effectively executing at a single timestamp the returns are not affected). allow the assets to effectively be shared among many protocols, optimise for yield and are fully modular from the ground up allowing for use cases to plug in with no changes needed to the core contracts and allow LPs to earn both swap fees, interest fees and more without leaving any money on the table or needng to choose between AMMs and lending, you get both. 
+
+5. As many protocols can request and use the same assets and liquidity fees earned are cumulative not competitive, as swap feea are extracted during a swap, rather than 3 USDc across 3 AMMs for USDc x ETH/USDt and DAI, and 3 txs each earning the 1 USDc a small fee, you now have your 1 USDc shared across 3 AMMs earning 3 txs worth of fees.
+
+Superstate changes the way we think about assets and rather than try to adopt centralised finance models to Crypto we build for native use cases that cannot operate in traditional models. With superstate assets are able to flow between systems, earn full yield from many protocols, merge liquidity without layers or wrappers and allow assets to be in two places at once!
