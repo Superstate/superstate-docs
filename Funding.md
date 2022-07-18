@@ -1,6 +1,9 @@
 # Funding Overview
 Superstate has a fundamentally different approach to funding than the space has traditionally used, whereby most valuations were purely speculative guesses as to a reasonable amount the founders thought the project should be worth, with the investments being based on speculation that the speculative value for tokens will be higher than the value the founders proposed, this models bad so we made a better one.
 
+### Tldr
+The 10m tokens @ $0.6 per tokens creates a $6m target for the round. Redeemable by burn post successful LP swap for about $0.65 directly as a risk free rate should they wish to just burn tokens for money back.
+
 ## LP Swap
 To understand the funding model you need to understand the post launch LP Swap. At launch 70m SUP tokens from the 100m allocation will be allocated towards the LP Swap. The LP for Superstates AMMs will be able to be swapped for the SUP governance token with the Superstate Treasury at $1 in LP for 1 token. LP Swap creates a mechanism whereby people are able to help the project grow liquidity that can be moved by the DAO and managed, while having a say how the money they contributed gets used, increasing sovereignty and agency by those who participate to help control the Treasury. 
 
@@ -21,6 +24,3 @@ Tokens are valued at the risk free rate, which assumes that the LP swap will be 
 Tokens will not be vested and there will be no restrictions on the assets as the LP Swap should put everyone on roughly the same level (with investors getting a rate closer to the RFR due to the speculative risk that the LP Swap may not be immediately filled and successful at the start) we believe that the hard floor using rageQuits creates a hard foundational value for the project, as thats the hard guaranteed rate they can burn for to get any funds back. 
 
 We acknowledge that theres a chance the LP Swap may not be successful right away but we want investors that believe in the project and are willing to wait even through a bear cycle for the LP Swap to be successful, and the RFR rewards them with a hard floor on their investment in return while also having exposure for the protocol as a whole, earning protocol fees, having vote rights, earning LP fees as well as any valuation for the protocol itself.
-
-### Tldr
-The 10m tokens @ $0.6 per tokens creates a $6m target for the round. Redeemable by burn post successful LP swap for about $0.65 directly as a risk free rate should they wish to just burn tokens for money back.
