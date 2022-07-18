@@ -2,7 +2,7 @@
 Superstate has a fundamentally different approach to funding than the space has traditionally used, whereby most valuations were purely speculative guesses as to a reasonable amount the founders thought the project should be worth, with the investments being based on speculation that the speculative value for tokens will be higher than the value the founders proposed, this models bad so we made a better one.
 
 ### Tldr
-The 10m tokens @ $0.6 per tokens creates a $6m target for the round. Redeemable by burn post successful LP swap for about $0.65 directly as a risk free rate should they wish to just burn tokens for money back.
+The 10m tokens @ $0.6 per tokens creates a $6m target for the round. Redeemable by burn post successful LP swap for about $0.65 directly as a risk free rate should they wish to just burn tokens for money back as a hard floor. Tokens have vote rights, earn LP fees, protocol fees and RFR increase based on treasury. 
 
 ## LP Swap
 To understand the funding model you need to understand the post launch LP Swap. At launch 70m SUP tokens from the 100m allocation will be allocated towards the LP Swap. The LP for Superstates AMMs will be able to be swapped for the SUP governance token with the Superstate Treasury at $1 in LP for 1 token. LP Swap creates a mechanism whereby people are able to help the project grow liquidity that can be moved by the DAO and managed, while having a say how the money they contributed gets used, increasing sovereignty and agency by those who participate to help control the Treasury. 
