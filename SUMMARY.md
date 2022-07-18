@@ -9,3 +9,4 @@
 * [Liquidity Fragmentation](page-6.md)
 * [Deployments](Deployments.md)
 * [Links](links.md)
+* [Temporary - Funding](Funding.md)
