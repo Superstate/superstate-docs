@@ -14,6 +14,16 @@ SUP tokens are able to be burned at any time for their fair, relative stake from
 
 As the Team allocation and investor allocation do NOT directly fund the Treasury, this creates dilution from the $1 to 1 SUP LP swap rate. This however also allows SUP holders to have vote rights to the DAO and Treasury, earn fees from the Treasury LP as well as earn protocol fees from ALL fees from the protocol for all users for funds they contributed, creating direct agency and sovereignty/autonomy, as well as a mechanism to walk away from the DAO with your fajr share.
 
+## Distribution
+100m Tokens Total Supply
+20-27m Team allocation
+3-10m Investment allocation
+70m LP Swap
+   - 28m USDc/USDt LP
+   - 22m USDc/DAI LP
+   - 10m USDc/ETH LP
+   - 10m SUP/ETH LP Uniswap v3
+
 ## Funding
 So now that the LP Swap and rageQuits are explained the valuation will be as follows for the seed round.
 
