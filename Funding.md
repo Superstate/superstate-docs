@@ -32,7 +32,7 @@ So now that the LP Swap and rageQuits are explained the valuation will be as fol
 
 10m token allocation for investment
 
-Tokens are valued at the risk free rate, which assumes that the LP swap will be successful given enough time (though $65m mcap seems relatively low considering the project scope and we feel should be easy to achieve) and as such tokens are valued at the $0.6 they are directly burnable for post a successful LP Swap (a $0.05 discount to account for some volatility wrt ETH/USD LP) which creates a hard floor investors can burn their allocation for forthejrmoney back.
+Tokens are valued at the risk free rate, which assumes that the LP swap will be successful given enough time (though $65m mcap seems relatively low considering the project scope and we feel should be easy to achieve) and as such tokens are valued at the $0.6 they are directly burnable for post a successful LP Swap (a $0.05 discount to account for some volatility wrt ETH/USD LP) which creates a hard floor investors can burn their allocation for for their money back.
 
 Tokens will not be vested and there will be no restrictions on the assets as the LP Swap should put everyone on roughly the same level (with investors getting a rate closer to the RFR due to the speculative risk that the LP Swap may not be immediately filled and successful at the start) we believe that the hard floor using rageQuits creates a hard foundational value for the project, as thats the hard guaranteed rate they can burn for to get any funds back. 
 
