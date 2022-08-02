@@ -16,8 +16,11 @@ As the Team allocation and investor allocation do NOT directly fund the Treasury
 
 ## Distribution
 100m Tokens Total Supply
+
 20-27m Team allocation
+
 3-10m Investment allocation
+
 70m LP Swap
    - 28m USDc/USDt LP
    - 22m USDc/DAI LP
