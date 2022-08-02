@@ -16,11 +16,11 @@
 
 2. Assets are then deposited by vault to target deposit protocol(s) and strat earning passive interest, vault refers own balance as the underlying value of deposits.
 
-3. Superstate v2 AMM for USDc / USDt requests funds from vault for swap, using the vaults balances as own liquidity. Must be whitelisted. Vault sends .997 USDc out token to AMM, which swaps for 1 USDt in and earns swap fee .003 USDc, AMM sends 1 USDt and fee to vault to be redeposited.
+3. Superstate v2 AMM2 for USDc / USDt requests funds from vault for swap, using the vaults balances as own liquidity. Must be whitelisted. Vault sends .997 USDc out token to AMM2, which swaps for 1 USDt in and earns swap fee .003 USDc, AMM2 sends 1 USDt and fee to vault to be redeposited.
 
 Later another swap happens for USDt to USDc, USDt sent, USDc deposited. .003 fee earned to USDt.
 
-Vault earns fees from active use of assets during swap tx execution for AMM 2. AMM2 never has any LP itself and cannot mint or hold own assets, acts as a child module for vault like a child program for the parent program. Modules can be AMMs/lending markets/index swaps/vote bribes where they are designed as child modules that plug into the Superstate vault to earn fees,but sharing the liquidity across all modules simultaneously
+Vault earns fees from active use of assets during swap tx execution for AMM2. AMM2 never has any LP itself and cannot mint or hold own assets, acts as a child module for vault like a child program for the parent program. Modules can be AMMs/lending markets/index swaps/vote bribes where they are designed as child modules that plug into the Superstate vault to earn fees,but sharing the liquidity across all modules simultaneously
 
 4. AMM1 for USDx USDc requests 1 USDc for an 1 USDx swap, .997 USDc withdrawn from deposit, sent, and 1 USDx deposited to an USDx lending market to earn interest and get fees. 
 
