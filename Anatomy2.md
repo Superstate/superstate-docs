@@ -16,7 +16,7 @@
 
 2. Assets are then deposited by vault to target deposit protocol(s) and strat earning passive interest, vault refers own balance as the underlying value of deposits.
 
-3. Superstate v2 AMM for USDc / USDt requests funds from vault for swap, using the vaults balances as own liquidity. Must be whitelisted. Vault sends .997 USDc out token to AMM2, which swaps for 1 USDt in and earns swap fee .003 USDc, AMM sends 1 USDt and fee to vault to be redeposited.
+3. Superstate v2 AMM for USDc / USDt requests funds from vault for swap, using the vaults balances as own liquidity. Must be whitelisted. Vault sends .997 USDc out token to AMM, which swaps for 1 USDt in and earns swap fee .003 USDc, AMM sends 1 USDt and fee to vault to be redeposited.
 
 Later another swap happens for USDt to USDc, USDt sent, USDc deposited. .003 fee earned to USDt.
 
